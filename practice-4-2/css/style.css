@@ -1,10 +1,9 @@
 body{
    font-family: Verdana;
    color: #06389e;
-   background-color: #e6e6e6;
    margin-top: 0;
+    background-color: #e6e6e6;
 }
-
 h2,h3{
   text-align: center;
   text-transform: uppercase;
@@ -56,4 +55,9 @@ ol {
 
 ol li a{
   color: gray;
+}
+
+img{
+  height:187px;
+  width:100px;
 }
