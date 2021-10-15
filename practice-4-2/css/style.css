@@ -1,8 +1,8 @@
 body{
    font-family: Verdana;
    color: #06389e;
+   background-color: #e6e6e6;
    margin-top: 0;
-    background-color: #e6e6e6;
 }
 h2,h3{
   text-align: center;
@@ -46,7 +46,6 @@ ul{
   text-decoration: none;
   color: #494d56;
   font-weight: bolder;
-
 }
 
 ol {
@@ -57,7 +56,36 @@ ol li a{
   color: gray;
 }
 
-img{
-  height:187px;
+.table1{
+  background-color:#6699ff;
+  border-collapse: collapse;
+  padding: 0;
+  border-spacing: 0;
+  margin: auto;
+  border-color:#6699FF ; 
+  width: 800px;
+  border:1px;
+
+}
+img {
+  height: 187px;
+  width: 100px;
+}
+.table_2{
+  background-color:white;
+  width:800px;
+  margin: auto;
+  border-collapse: collapse;
+  padding: 0;
+  border-spacing: 0;
+  border:3px solid #6699FF;
+}
+.footercolor {
+  background-color:#6699ff ;
+}
+table td,tr{
   width:100px;
+}
+td{
+  padding: 3px;
 }
