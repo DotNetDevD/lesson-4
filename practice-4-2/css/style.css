@@ -9,67 +9,54 @@ h2,h3{
   text-transform: uppercase;
   color: #494d56;
 } 
-
-#shapka,#slogan{
+#shapka, #slogan{
   font-family: Arial;
   text-align: center;
   color: white;
   font-weight: bold;
 }
-
 #slogan{padding: 5px 0 5px 0;}
-
 .foot{
   color: white;
   font-size: 0.6em;
   text-align: center;
 }
-
 ul,.content {
   font-size: 0.7em;
 }
-
 ul{
   font-family: Tahoma;
   letter-spacing: 1px;
   line-height: 1.5em;
 }
-
 .content{
   padding: 10px 15px 10px 15px;
   text-align: justify;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
 }
-
 .content a{
   text-decoration: none;
   color: #494d56;
   font-weight: bolder;
 }
-
 ol {
   font-size: 0.8em;
 }
-
 ol li a{
   color: gray;
-}
-
-.table1{
-  background-color:#6699ff;
-  border-collapse: collapse;
-  padding: 0;
-  border-spacing: 0;
-  margin: auto;
-  border-color:#6699FF ; 
-  width: 800px;
-  border:1px;
-
 }
 img {
   height: 187px;
   width: 100px;
+  float:left;
+}
+.table_1{
+  background-color:#6699ff;
+  width: 800px;
+  margin: auto;
+  border-collapse: collapse;
+  border-color:3px solid #6699FF; 
 }
 .table_2{
   background-color:white;
@@ -80,7 +67,7 @@ img {
   border-spacing: 0;
   border:3px solid #6699FF;
 }
-.footercolor {
+.foot_color {
   background-color:#6699ff ;
 }
 table td,tr{
@@ -88,4 +75,8 @@ table td,tr{
 }
 td{
   padding: 3px;
+}
+.white_sign {
+  color :white;
+  text-decoration: none;
 }
